@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,11 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Climate Connect" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CKU-xN-ZdN">
-                                <rect key="frame" x="144" y="155" width="127" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CKU-xN-ZdN">
+                                <rect key="frame" x="144" y="155" width="154" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="backgroundColor" red="0.67650502379999999" green="1" blue="0.63816022579999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Climate Connect">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="CourierNewPSMT"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Let's begin!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="52y-es-P1G">
@@ -42,7 +47,6 @@
                                 <rect key="frame" x="112" y="395" width="186" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="What is Climate Change?"/>
                                 <connections>
                                     <segue destination="tf6-gb-FDH" kind="show" id="ZkH-ef-2QV"/>
                                 </connections>
@@ -51,7 +55,6 @@
                                 <rect key="frame" x="120" y="462" width="169" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="What can I do to help?"/>
                                 <connections>
                                     <segue destination="2rE-4q-IRA" kind="show" id="eoh-Gj-1py"/>
                                 </connections>
@@ -60,7 +63,6 @@
                                 <rect key="frame" x="94" y="532" width="226" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Organizations you can support!"/>
                                 <connections>
                                     <segue destination="eiJ-dM-Cu2" kind="show" id="wh8-mX-HOA"/>
                                 </connections>
@@ -94,7 +96,6 @@
                                 <rect key="frame" x="88" y="295" width="238" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="What is climate change?"/>
                                 <connections>
                                     <segue destination="ac6-zD-3fh" kind="show" id="arN-nq-JQk"/>
                                 </connections>
@@ -103,7 +104,6 @@
                                 <rect key="frame" x="88" y="389" width="238" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Facts about climate change"/>
                                 <connections>
                                     <segue destination="yEk-Jl-6XY" kind="show" id="APz-Xq-ADR"/>
                                 </connections>
@@ -112,7 +112,6 @@
                                 <rect key="frame" x="88" y="470" width="238" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Effects of climate change"/>
                                 <connections>
                                     <segue destination="LaN-nj-EkH" kind="show" id="9Gf-qf-aOF"/>
                                 </connections>
@@ -121,7 +120,6 @@
                                 <rect key="frame" x="28" y="41" width="64" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="hTz-hC-0rN"/>
                                 </connections>
@@ -193,19 +191,16 @@ Climate change is changing water availability, making it scarcer in more regions
                                 <rect key="frame" x="62" y="611" width="291" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Warming, rising ocean"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ca4-In-TUb">
                                 <rect key="frame" x="62" y="267" width="291" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="More severe storms"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lNl-gY-dgU">
                                 <rect key="frame" x="65" y="118" width="291" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Hotter temperatures"/>
                                 <connections>
                                     <action selector="Label:" destination="qzF-wj-a8b" eventType="touchUpInside" id="Vrn-GB-ehs"/>
                                 </connections>
@@ -214,7 +209,6 @@ Climate change is changing water availability, making it scarcer in more regions
                                 <rect key="frame" x="65" y="449" width="291" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Increased drought"/>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QtT-St-SEm">
                                 <rect key="frame" x="36" y="168" width="342" height="104"/>
@@ -234,7 +228,6 @@ Climate change is changing water availability, making it scarcer in more regions
                                 <rect key="frame" x="17" y="15" width="64" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
                                 <connections>
                                     <segue destination="tf6-gb-FDH" kind="show" id="UDu-yQ-4V6"/>
                                 </connections>
@@ -243,7 +236,6 @@ Climate change is changing water availability, making it scarcer in more regions
                                 <rect key="frame" x="262" y="752" width="94" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Read more"/>
                                 <connections>
                                     <segue destination="LoO-Z2-oJ9" kind="show" id="K28-yd-M8V"/>
                                 </connections>
@@ -285,7 +277,6 @@ Climate change is changing water availability, making it scarcer in more regions
                                 <rect key="frame" x="71" y="201" width="272" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="1. We are certain we caused it"/>
                                 <connections>
                                     <segue destination="Ehh-FA-mbt" kind="show" id="QJj-Wc-H21"/>
                                 </connections>
@@ -294,7 +285,6 @@ Climate change is changing water availability, making it scarcer in more regions
                                 <rect key="frame" x="71" y="255" width="272" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="2. The last decade was the hottest in 125,000 years"/>
                                 <connections>
                                     <segue destination="REt-7J-GsO" kind="show" id="mYO-N2-lYS"/>
                                 </connections>
@@ -303,7 +293,6 @@ Climate change is changing water availability, making it scarcer in more regions
                                 <rect key="frame" x="68" y="343" width="272" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="3. The ocean absorbs most of the heat we produce"/>
                                 <connections>
                                     <segue destination="gZN-wO-6MO" kind="show" id="2fG-aA-I0J"/>
                                 </connections>
@@ -312,7 +301,6 @@ Climate change is changing water availability, making it scarcer in more regions
                                 <rect key="frame" x="71" y="429" width="272" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="4. We are losing 1.2 trillion tons of ice each year"/>
                                 <connections>
                                     <segue destination="z87-Fb-wAE" kind="show" id="0Af-r4-uPb"/>
                                 </connections>
@@ -321,7 +309,6 @@ Climate change is changing water availability, making it scarcer in more regions
                                 <rect key="frame" x="71" y="513" width="269" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="5. We lost 302.4 billion work hours to excessive heat in 2019"/>
                                 <connections>
                                     <segue destination="P4s-nr-7ic" kind="show" id="HKI-30-s1b"/>
                                 </connections>
@@ -330,7 +317,6 @@ Climate change is changing water availability, making it scarcer in more regions
                                 <rect key="frame" x="10" y="20" width="64" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
                                 <connections>
                                     <segue destination="tf6-gb-FDH" kind="show" id="Mo3-hP-1hp"/>
                                 </connections>
@@ -348,7 +334,6 @@ Climate change is changing water availability, making it scarcer in more regions
         <!--View Controller-->
         <scene sceneID="uAm-jV-JL1">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YdM-yb-zia" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="Ehh-FA-mbt" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XS4-fa-6QX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -358,7 +343,6 @@ Climate change is changing water availability, making it scarcer in more regions
                                 <rect key="frame" x="30" y="20" width="64" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
                                 <connections>
                                     <segue destination="yEk-Jl-6XY" kind="show" id="Jyp-yg-Dtg"/>
                                 </connections>
@@ -390,13 +374,13 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                     </view>
                     <navigationItem key="navigationItem" id="meN-jg-9td"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YdM-yb-zia" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="781" y="1420"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="c7y-nZ-OpX">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dPM-00-Caq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="REt-7J-GsO" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="h4d-x8-MNo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -406,7 +390,6 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                                 <rect key="frame" x="20" y="20" width="64" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
                                 <connections>
                                     <segue destination="yEk-Jl-6XY" kind="show" id="SfX-Ka-Ijb"/>
                                 </connections>
@@ -440,13 +423,13 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                     </view>
                     <navigationItem key="navigationItem" id="k6C-xU-LpM"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dPM-00-Caq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1481.1594202898552" y="1422.9910714285713"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="km6-Zo-Vod">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8bR-n2-OwD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="gZN-wO-6MO" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="w2o-zK-iJP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -456,7 +439,6 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                                 <rect key="frame" x="20" y="20" width="64" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
                                 <connections>
                                     <segue destination="yEk-Jl-6XY" kind="show" id="rPC-3U-3IF"/>
                                 </connections>
@@ -502,13 +484,13 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                     </view>
                     <navigationItem key="navigationItem" id="9LZ-0F-kfc"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8bR-n2-OwD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2182.608695652174" y="1445.7589285714284"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Scw-ty-5M6">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Fgu-Am-snu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="z87-Fb-wAE" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jIT-ci-XLy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -518,7 +500,6 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                                 <rect key="frame" x="20" y="20" width="64" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
                                 <connections>
                                     <segue destination="yEk-Jl-6XY" kind="show" id="70Y-Nb-fQ7"/>
                                 </connections>
@@ -552,13 +533,13 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                     </view>
                     <navigationItem key="navigationItem" id="CbH-hs-zyc"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fgu-Am-snu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2905" y="1466"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="9Qv-nK-AzG">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="g2J-gn-123" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="P4s-nr-7ic" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jfo-Oe-zpJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -568,7 +549,6 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                                 <rect key="frame" x="20" y="20" width="74" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
                                 <connections>
                                     <segue destination="yEk-Jl-6XY" kind="show" id="za5-Pg-MgP"/>
                                 </connections>
@@ -602,6 +582,7 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                     </view>
                     <navigationItem key="navigationItem" id="ljJ-sh-MVm"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g2J-gn-123" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3665.217391304348" y="1449.7767857142856"/>
         </scene>
@@ -634,13 +615,13 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" notEnabled="YES"/>
                                 </accessibility>
-                                <mutableString key="text">Long-term changes in temperature and weather patterns are referred to as climate change. These changes could be caused by natural processes, such variations in the solar cycle. 
+                                <string key="text">Long-term changes in temperature and weather patterns are referred to as climate change. These changes could be caused by natural processes, such variations in the solar cycle. 
 
 But since the 1800s, human activities—primarily the combustion of fossil fuels like coal, oil, and gas—have been the primary cause of climate change.
 
 Fossil fuel combustion produces greenhouse gas emissions that serve as a blanket around the planet, trapping heat from the sun and increasing temperatures.
 
-Carbon dioxide and methane are two examples of greenhouse gas emissions that are contributing to climate change. These are produced, for instance, while burning coal or gasoline to heat a building. Carbon dioxide can also be released during forest and land clearing.</mutableString>
+Carbon dioxide and methane are two examples of greenhouse gas emissions that are contributing to climate change. These are produced, for instance, while burning coal or gasoline to heat a building. Carbon dioxide can also be released during forest and land clearing.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -649,13 +630,11 @@ Carbon dioxide and methane are two examples of greenhouse gas emissions that are
                                 <rect key="frame" x="25" y="32" width="64" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OH8-1X-eOs">
                                 <rect key="frame" x="25" y="32" width="64" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
                                 <connections>
                                     <segue destination="tf6-gb-FDH" kind="show" id="Iyx-jX-bqr"/>
                                 </connections>
@@ -780,7 +759,6 @@ Carbon dioxide and methane are two examples of greenhouse gas emissions that are
                                 <rect key="frame" x="43" y="149" width="324" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="1. Delete old emails"/>
                                 <connections>
                                     <action selector="button1tapped:" destination="2rE-4q-IRA" eventType="touchUpInside" id="Oe2-Zs-crB"/>
                                 </connections>
@@ -789,7 +767,6 @@ Carbon dioxide and methane are two examples of greenhouse gas emissions that are
                                 <rect key="frame" x="41" y="481" width="335" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="3. Buy appliances with the Energy Star Label"/>
                                 <connections>
                                     <action selector="button3tapped:" destination="2rE-4q-IRA" eventType="touchUpInside" id="BG2-ET-XYD"/>
                                 </connections>
@@ -798,7 +775,6 @@ Carbon dioxide and methane are two examples of greenhouse gas emissions that are
                                 <rect key="frame" x="43" y="302" width="330" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="2. Change regular lightbulbs to LEDS"/>
                                 <connections>
                                     <action selector="button2tapped:" destination="2rE-4q-IRA" eventType="touchUpInside" id="ua6-EV-e6d"/>
                                 </connections>
@@ -832,7 +808,6 @@ Carbon dioxide and methane are two examples of greenhouse gas emissions that are
                                 <rect key="frame" x="26" y="30" width="64" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="PlY-QS-MdO"/>
                                 </connections>
@@ -882,7 +857,6 @@ Carbon dioxide and methane are two examples of greenhouse gas emissions that are
                                 <rect key="frame" x="156" y="374" width="103" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Greenpeace"/>
                                 <connections>
                                     <segue destination="SWg-fO-naa" kind="show" id="6A0-b3-J4C"/>
                                 </connections>
@@ -891,7 +865,6 @@ Carbon dioxide and methane are two examples of greenhouse gas emissions that are
                                 <rect key="frame" x="115" y="519" width="185" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="The Nature Conservancy"/>
                                 <connections>
                                     <segue destination="fQN-Lu-JaF" kind="show" id="abc-ma-awL"/>
                                 </connections>
@@ -900,7 +873,6 @@ Carbon dioxide and methane are two examples of greenhouse gas emissions that are
                                 <rect key="frame" x="137" y="442" width="140" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Sierra Club"/>
                                 <connections>
                                     <segue destination="qho-je-5Tj" kind="show" id="DXS-53-ejx"/>
                                 </connections>
@@ -909,7 +881,6 @@ Carbon dioxide and methane are two examples of greenhouse gas emissions that are
                                 <rect key="frame" x="20" y="20" width="64" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="tbf-Qv-VV7"/>
                                 </connections>
@@ -998,7 +969,6 @@ Carbon dioxide and methane are two examples of greenhouse gas emissions that are
                                 <rect key="frame" x="20" y="20" width="64" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
                                 <connections>
                                     <segue destination="eiJ-dM-Cu2" kind="show" id="rhR-Yw-AeL"/>
                                 </connections>
@@ -1091,7 +1061,6 @@ Carbon dioxide and methane are two examples of greenhouse gas emissions that are
                                 <rect key="frame" x="20" y="20" width="64" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
                                 <connections>
                                     <segue destination="eiJ-dM-Cu2" kind="show" id="PYH-Pr-uXY"/>
                                 </connections>
@@ -1212,7 +1181,6 @@ Carbon dioxide and methane are two examples of greenhouse gas emissions that are
                                 <rect key="frame" x="50" y="38" width="64" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
                                 <connections>
                                     <segue destination="eiJ-dM-Cu2" kind="show" id="7zi-KN-4hW"/>
                                 </connections>
@@ -1260,25 +1228,21 @@ Carbon dioxide and methane are two examples of greenhouse gas emissions that are
                                 <rect key="frame" x="62" y="126" width="291" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Loss of species"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7bp-0T-9fm">
                                 <rect key="frame" x="62" y="448" width="291" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="More health risks"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zbs-nV-bTY">
                                 <rect key="frame" x="62" y="274" width="291" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Not enough food"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cgc-MP-E8m">
                                 <rect key="frame" x="20" y="44" width="64" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Back"/>
                                 <connections>
                                     <segue destination="LaN-nj-EkH" kind="show" id="3ew-rx-LNV"/>
                                 </connections>
@@ -1335,7 +1299,6 @@ Carbon dioxide and methane are two examples of greenhouse gas emissions that are
                                 <rect key="frame" x="62" y="624" width="291" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Poverty and displacement"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5qC-7h-ATy"/>
@@ -1349,11 +1312,10 @@ Carbon dioxide and methane are two examples of greenhouse gas emissions that are
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="K28-yd-M8V"/>
         <segue reference="wh8-mX-HOA"/>
         <segue reference="APz-Xq-ADR"/>
-        <segue reference="3ew-rx-LNV"/>
-        <segue reference="UDu-yQ-4V6"/>
+        <segue reference="9Gf-qf-aOF"/>
+        <segue reference="ZkH-ef-2QV"/>
         <segue reference="hTz-hC-0rN"/>
     </inferredMetricsTieBreakers>
     <resources>
