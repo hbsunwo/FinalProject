@@ -414,6 +414,8 @@ Climate change is changing water availability, making it scarcer in more regions
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T8l-TL-aEB">
                                 <rect key="frame" x="71" y="201" width="272" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.42250669000000002" green="0.76786476370000001" blue="0.63279384370000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="We are certain we caused it">
@@ -430,8 +432,10 @@ Climate change is changing water availability, making it scarcer in more regions
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wJd-eU-3A5">
-                                <rect key="frame" x="20" y="255" width="374" height="80"/>
+                                <rect key="frame" x="20" y="263" width="374" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.42250669000000002" green="0.76786476370000001" blue="0.63279384370000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="The last decade was the hottest in 125,000 years">
@@ -446,8 +450,10 @@ Climate change is changing water availability, making it scarcer in more regions
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LRg-Pa-YgR">
-                                <rect key="frame" x="20" y="343" width="374" height="55"/>
+                                <rect key="frame" x="20" y="350" width="374" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.41876387599999998" green="0.7600079179" blue="0.62491166590000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="The ocean absorbs most of the heat we produce">
@@ -462,8 +468,10 @@ Climate change is changing water availability, making it scarcer in more regions
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NqP-vk-j7M">
-                                <rect key="frame" x="10" y="420" width="394" height="56"/>
+                                <rect key="frame" x="10" y="448" width="394" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.42250669000000002" green="0.76786476370000001" blue="0.63279384370000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="We are losing 1.2 trillion tons of ice each year">
@@ -486,8 +494,10 @@ Climate change is changing water availability, making it scarcer in more regions
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sag-rg-BoQ">
-                                <rect key="frame" x="20" y="484" width="374" height="91"/>
+                                <rect key="frame" x="20" y="545" width="374" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.42250669000000002" green="0.76786476370000001" blue="0.63279384370000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="labelColor"/>
                                 <state key="normal">
                                     <attributedString key="attributedTitle">
                                         <fragment content="We lost 302.4 billion work hours due to excessive heat in 2019">
@@ -501,6 +511,13 @@ Climate change is changing water availability, making it scarcer in more regions
                                     <segue destination="P4s-nr-7ic" kind="show" id="HKI-30-s1b"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="𓏧 𓏲 𓏲 𓏲 𓏲 𓋒 𓏲 𓏲 𓏲 𓏲 𓏧 " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gF-CL-cVg">
+                                <rect key="frame" x="0.0" y="676" width="414" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="NotoSansEgyptianHieroglyphs-Regular" family="Noto Sans Egyptian Hieroglyphs" pointSize="43"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ZjR-u8-3ok"/>
                         <color key="backgroundColor" red="0.62920403479999998" green="0.85160464049999995" blue="0.58595031500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -522,14 +539,15 @@ Climate change is changing water availability, making it scarcer in more regions
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8At-1D-GjD">
                                 <rect key="frame" x="30" y="20" width="64" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Back"/>
                                 <connections>
                                     <segue destination="yEk-Jl-6XY" kind="show" id="Jyp-yg-Dtg"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1. We Are Certain We Caused It" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0M-4k-rSZ">
-                                <rect key="frame" x="89" y="117" width="236" height="21"/>
+                                <rect key="frame" x="89" y="117" width="249" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.41502082350000002" green="0.75215095279999999" blue="0.61702924969999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -537,7 +555,7 @@ Climate change is changing water availability, making it scarcer in more regions
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dzh-sL-pTh">
                                 <rect key="frame" x="36" y="208" width="343" height="563"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.62920403479999998" green="0.85160464049999995" blue="0.58595031500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" notEnabled="YES"/>
                                 </accessibility>
@@ -548,15 +566,22 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="⋆┈┈｡ﾟ❃ུ۪ ❀ུ۪ ❁ུ۪ ❃ུ۪ ❀ུ۪ ﾟ｡┈┈⋆" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dSx-c6-Les">
+                                <rect key="frame" x="50" y="614" width="256" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="oP3-gX-gqa"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.62920403479999998" green="0.85160464049999995" blue="0.58595031500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="meN-jg-9td"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YdM-yb-zia" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="781" y="1420"/>
+            <point key="canvasLocation" x="779.71014492753625" y="1419.6428571428571"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="c7y-nZ-OpX">
@@ -569,7 +594,7 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7yL-Dq-rLA">
                                 <rect key="frame" x="20" y="20" width="64" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Back"/>
                                 <connections>
                                     <segue destination="yEk-Jl-6XY" kind="show" id="SfX-Ka-Ijb"/>
                                 </connections>
@@ -577,7 +602,7 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="2. The Last Decade Was the Hottest in 125,000 Years" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NwQ-o7-Lef">
                                 <rect key="frame" x="36" y="97" width="343" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.42250669000000002" green="0.76786476370000001" blue="0.63279384370000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" notEnabled="YES"/>
                                 </accessibility>
@@ -588,7 +613,7 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1g6-9w-lh4">
                                 <rect key="frame" x="36" y="218" width="343" height="563"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.62920403479999998" green="0.85160464049999995" blue="0.58595031500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" notEnabled="YES"/>
                                 </accessibility>
@@ -597,9 +622,16 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="⋆┈┈｡ﾟ❃ུ۪ ❀ུ۪ ❁ུ۪ ❃ུ۪ ❀ུ۪ ﾟ｡┈┈⋆" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4np-hb-Jhg">
+                                <rect key="frame" x="52" y="625" width="256" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="k01-F1-jSo"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.62920403479999998" green="0.85160464049999995" blue="0.58595031500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="k6C-xU-LpM"/>
                 </viewController>
@@ -618,7 +650,7 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j7M-va-oTt">
                                 <rect key="frame" x="20" y="20" width="64" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Back"/>
                                 <connections>
                                     <segue destination="yEk-Jl-6XY" kind="show" id="rPC-3U-3IF"/>
                                 </connections>
@@ -626,7 +658,7 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7HP-Ps-PX2">
                                 <rect key="frame" x="36" y="204" width="343" height="155"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.62920403479999998" green="0.85160464049999995" blue="0.58595031500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" notEnabled="YES"/>
                                 </accessibility>
@@ -638,7 +670,7 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="3. The Ocean Absorbs Most of the Heat We Produce" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mzD-Wi-CMv">
                                 <rect key="frame" x="36" y="71" width="343" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.42250669000000002" green="0.76786476370000001" blue="0.63279384370000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" notEnabled="YES"/>
                                 </accessibility>
@@ -649,7 +681,7 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Id2-VA-tYj">
                                 <rect key="frame" x="36" y="410" width="343" height="155"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.62920403479999998" green="0.85160464049999995" blue="0.58595031500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" notEnabled="YES"/>
                                 </accessibility>
@@ -658,9 +690,16 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="⋆┈┈｡ﾟ❃ུ۪ ❀ུ۪ ❁ུ۪ ❃ུ۪ ❀ུ۪ ﾟ｡┈┈⋆" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oCh-8L-kUL">
+                                <rect key="frame" x="31" y="685" width="256" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="5uW-V3-qmR"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.62920403479999998" green="0.85160464049999995" blue="0.58595031500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="9LZ-0F-kfc"/>
                 </viewController>
@@ -679,7 +718,7 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rwN-yN-zdJ">
                                 <rect key="frame" x="20" y="20" width="64" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Back"/>
                                 <connections>
                                     <segue destination="yEk-Jl-6XY" kind="show" id="70Y-Nb-fQ7"/>
                                 </connections>
@@ -687,7 +726,7 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="4. We Are Losing 1.2 Trillion Tons of Ice Each Year" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="guq-gO-Gpy">
                                 <rect key="frame" x="36" y="103" width="343" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.41874364019999999" green="0.75995081659999997" blue="0.62901419400000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" notEnabled="YES"/>
                                 </accessibility>
@@ -698,7 +737,7 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Hd-gN-5gG">
                                 <rect key="frame" x="36" y="274" width="343" height="158.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.62541174889999995" green="0.84369593860000003" blue="0.5822007656" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" notEnabled="YES"/>
                                 </accessibility>
@@ -707,9 +746,16 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="⋆┈┈｡ﾟ❃ུ۪ ❀ུ۪ ❁ུ۪ ❃ུ۪ ❀ུ۪ ﾟ｡┈┈⋆" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O1S-RJ-SW6">
+                                <rect key="frame" x="42" y="641" width="256" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8FU-Sm-74Q"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.62920403479999998" green="0.85160464049999995" blue="0.58595031500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="CbH-hs-zyc"/>
                 </viewController>
@@ -728,7 +774,7 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mF4-Cf-mFD">
                                 <rect key="frame" x="20" y="20" width="74" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Back"/>
                                 <connections>
                                     <segue destination="yEk-Jl-6XY" kind="show" id="za5-Pg-MgP"/>
                                 </connections>
@@ -736,7 +782,7 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="5. We Lost 302.4 Billion Work Hours to Excessive Heat In 2019" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPX-OI-2IE">
                                 <rect key="frame" x="36" y="122" width="343" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.41478383540000002" green="0.75602626799999995" blue="0.62508755920000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" notEnabled="YES"/>
                                 </accessibility>
@@ -747,7 +793,7 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eIM-ow-w6m">
                                 <rect key="frame" x="36" y="256" width="343" height="219"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" red="0.62920403479999998" green="0.85160464049999995" blue="0.58595031500000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" notEnabled="YES"/>
                                 </accessibility>
@@ -756,9 +802,16 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="⋆┈┈｡ﾟ❃ུ۪ ❀ུ۪ ❁ུ۪ ❃ུ۪ ❀ུ۪ ﾟ｡┈┈⋆" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vLm-ds-iWo">
+                                <rect key="frame" x="52" y="657" width="256" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ALH-Hh-jLL"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.62527590990000004" green="0.84767872099999997" blue="0.58201497790000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="ljJ-sh-MVm"/>
                 </viewController>
@@ -803,13 +856,13 @@ How are we so certain? It took a while, but climate modelling is now refined eno
                                 </accessibility>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">Long-term changes in temperature and weather patterns are referred to as climate change. These changes could be caused by natural processes, such variations in the solar cycle. 
+                                        <string key="content">Long-term changes in temperature and weather patterns are referred to as climate change. These changes could be caused by natural processes, such variations in the solar cycle. 
 
 But since the 1800s, human activities—primarily the combustion of fossil fuels like coal, oil, and gas—have been the primary cause of climate change.
 
 Fossil fuel combustion produces greenhouse gas emissions that serve as a blanket around the planet, trapping heat from the sun and increasing temperatures.
 
-Carbon dioxide and methane are two examples of greenhouse gas emissions that are contributing to climate change. These are produced, for instance, while burning coal or gasoline to heat a building. Carbon dioxide can also be released during forest and land clearing.</mutableString>
+Carbon dioxide and methane are two examples of greenhouse gas emissions that are contributing to climate change. These are produced, for instance, while burning coal or gasoline to heat a building. Carbon dioxide can also be released during forest and land clearing.</string>
                                         <attributes>
                                             <color key="NSColor" systemColor="labelColor"/>
                                             <font key="NSFont" size="17" name="Copperplate"/>
@@ -1514,7 +1567,7 @@ Carbon dioxide and methane are two examples of greenhouse gas emissions that are
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="wh8-mX-HOA"/>
-        <segue reference="APz-Xq-ADR"/>
+        <segue reference="Jyp-yg-Dtg"/>
         <segue reference="9Gf-qf-aOF"/>
         <segue reference="Mo3-hP-1hp"/>
         <segue reference="hTz-hC-0rN"/>
