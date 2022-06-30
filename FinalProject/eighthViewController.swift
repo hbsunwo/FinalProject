@@ -1,14 +1,26 @@
 //
-//  FifthViewController.swift
+//  eighthViewController.swift
 //  FinalProject
 //
-//  Created by Angel on 6/29/22.
+//  Created by crystal jiang on 6/29/22.
 //
 
 import UIKit
 
-class FifthViewController: UIViewController {
+class eighthViewController: UIViewController {
 
+    @IBOutlet weak var tncTitle: UILabel!
+    @IBOutlet weak var tnc1: UILabel!
+    @IBOutlet weak var tnc2: UILabel!
+    @IBOutlet weak var tnc3: UILabel!
+    @IBOutlet weak var tnc4: UILabel!
+    @IBOutlet weak var tnc5: UILabel!
+    @IBOutlet weak var tnc6: UILabel!
+    @IBOutlet weak var tnc7: UILabel!
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
