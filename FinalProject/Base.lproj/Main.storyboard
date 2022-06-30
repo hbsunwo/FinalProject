@@ -965,6 +965,9 @@ Carbon dioxide and methane are two examples of greenhouse gas emissions that are
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <segue destination="tf6-gb-FDH" kind="show" id="Zqn-x5-3SY"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="᠃ ⚘᠂ ⚘ ˚ ⚘ ᠂ ⚘ ᠃" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="itc-vl-sMB">
                                 <rect key="frame" x="0.0" y="709" width="414" height="57"/>
@@ -1803,12 +1806,11 @@ Carbon dioxide and methane are two examples of greenhouse gas emissions that are
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="QJj-Wc-H21"/>
-        <segue reference="7zi-KN-4hW"/>
-        <segue reference="Jyp-yg-Dtg"/>
-        <segue reference="3ew-rx-LNV"/>
-        <segue reference="Mo3-hP-1hp"/>
-        <segue reference="PlY-QS-MdO"/>
+        <segue reference="wh8-mX-HOA"/>
+        <segue reference="APz-Xq-ADR"/>
+        <segue reference="9Gf-qf-aOF"/>
+        <segue reference="ZkH-ef-2QV"/>
+        <segue reference="hTz-hC-0rN"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="EnergyStar" width="1676" height="1710"/>
